@@ -13,6 +13,7 @@ $result = mysqli_query($conn, $query);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des étudiants</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .container {
             max-width: 800px;

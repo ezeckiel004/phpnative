@@ -18,5 +18,8 @@ $row = mysqli_fetch_assoc($result);
 <body>
     <h1>Détail de l'étudiant</h1>
     <p>Nom: <?php echo $row['name']; ?></p>
+    <p>Age: <?php echo $row['age']; ?></p>
+    <p>Email: <?php echo $row['email']; ?></p>
+    <p>Adresse: <?php echo $row['address']; ?></p>
 </body>
 </html>
